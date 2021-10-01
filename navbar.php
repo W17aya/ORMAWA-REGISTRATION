@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-navbar m1-auto">
                 <li class="nav-item">
-                    <a class="nav-link p-4 active" href="index.html">Home</a>
+                    <a class="nav-link p-4 active" href="index.html">Beranda</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link p-4 active" href="index.html">Blog</a>
