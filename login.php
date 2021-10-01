@@ -1,34 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="h-100">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit-no">
-    <title>Login Aplikasi</title>
 
-    <link href="bootstrap/css/bootstrap-grid.min.css" rel="stylesheet">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+
+    <title>Ormawa Registration</title>
 </head>
 
-<body class="H-100 bg-info d-flex align-items-center">
+<body class="h-100 bg-info d-flex align-items-center">
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-md-4 mx-auto bg-light p-4">
 
-                <h3 class="text-center text-info pb-3 mb-3 border-bottom">Login Aplikasi</h3>
+                <h3 class="text-center text-info pb-3 mb-3 border-bottom">Login</h3>
+
 
                 <form method="post" action="ceklogin.php">
-                    <input class="form-control form-control-lg mb-3" type="text" placeholder="Username" name="username">
-                    <input class="form-control form-control-lg mb-3" type="password" placeholder="Password" name="password">
-                    <input class="btn btn-info btn-lg btn-block" type="submit" value="Login">
+                    <input class="form-control form-control-lg mb-3" type="text" placeholder="Email" name="email">
+                    <input class="form-control form-control-lg mb-3" type="text" placeholder="Password" name="password">
+                    <input class="btn btn-warning btn-lg btn-block" type="submit" value="Login">
                 </form>
             </div>
         </div>
     </div>
-</body>
 
 
-<body>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
